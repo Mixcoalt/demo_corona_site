@@ -6,6 +6,7 @@
     --white: #fff;
     --yellow: rgb(255, 240, 51);
     --yellow-dark: rgb(232, 201, 7);
+    --gray-dark: rgb(39, 55, 70);
 
     --font-primary: "JetBrains Mono", monospace;
     --font-secundary: "Monoton", sans-serif;
@@ -30,3 +31,20 @@ body{
     line-height: 1.5;
 }
 
+p{
+    font-size: 1.8rem;
+    font-family: var(--font-normal);
+}
+
+a{ 
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
