@@ -48,3 +48,25 @@ img{
     max-width: 120rem;
     margin: 0 auto;
 }
+
+h1, h2, h3{
+    text-align: center;
+    color: var(--yellow);
+    font-family: var(--font-primary);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+/**
+======= Utilidades =======
+**/
