@@ -1,0 +1,32 @@
+:root{
+    --primary: rgb(51, 159, 255);
+    --secundary: rgb(51, 255, 172);
+
+    --dark: #000;
+    --white: #fff;
+    --yellow: rgb(255, 240, 51);
+    --yellow-dark: rgb(232, 201, 7);
+
+    --font-primary: "JetBrains Mono", monospace;
+    --font-secundary: "Monoton", sans-serif;
+    --font-normal: Arial, Helvetica, sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/**
+========== Globales =========
+**/
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
